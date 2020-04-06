@@ -7,8 +7,44 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
+    <header>
+      <div>
+        <img src="./images/logo.png" class="logo">
+        <h2>Calculadora Freelancer</h2>
+      </div>
+    </header>
+    
+    <div class="">
+
+      <section class="container">
+        <div id="tempo">
+          <legend></legend>
+          <img src="images/ampulheta.png" alt="">
+          <input type="text" name="tempo" placeholder="Tempo diário..." autocomplete="off" required="Insira um valor númerico!">
+        </div>
+
+        <div id="dias">
+          <img src="images/calendario.png" alt="">
+          <input type="text" name="dias" placeholder="Dias efetivos..." autocomplete="off" required="Insira um valor númerico!">
+        </div>
+
+        <div id="ferias">
+          <img src="images/ferias.png" alt="">
+          <input type="text" name="ferias" placeholder="Dias de férias..." autocomplete="off" required="Insira um valor númerico!">
+        </div>
+
+        <div id="total">
+          <img src="images/dinheiro.png" alt="">
+          <input type="text" name="total" placeholder="Valor total do projeto..." autocomplete="off" required="Insira um valor númerico!">
+        </div>
+      </section>
+    </div>
+
     <div>
-      <h1>Olá mundo.</h1>
+        <div id="resultado">
+          <button>Calcule</button>
+          <p>R$:</p>
+        </div>
     </div>
     <script src="./main.js"></script>
   </body>
